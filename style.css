@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #91EDCB;
+}
+
+.wrapper {
+    display: grid;
+    max-width: 1200px;
+    margin: auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(33vh, auto);
+    grid-template-areas:
+    "ueberwachung   title     studium"
+    ".              leitlinie   ."
+    "vorschlag      leitlinie    comment";
+    justify-content: space-between;
+}
+
+.title, .leitlinie, .studium, .ueberwachung, .vorschlag, .comment {
+    text-align: center;
+    border: 1px solid;
+}
+
+img{
+    width: 30%;
+}
+
+.title {
+    grid-area: title;
+
+}
+
+.leitlinie {
+    grid-area: leitlinie;
+}
+
+.studium {
+    grid-area: studium;
+}
+
+.ueberwachung {
+    grid-area: ueberwachung;
+}
+
+.vorschlag {
+    grid-area: vorschlag;
+}
+
+.comment {
+    grid-area: comment;
+}
