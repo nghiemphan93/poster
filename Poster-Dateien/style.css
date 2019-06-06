@@ -23,7 +23,7 @@ body {
   grid-template-areas:
     "ueberwachung   title     studium"
     ".              leitlinie   ."
-    "vorschlag      leitlinie    ."
+    /* "vorschlag      leitlinie    ." */
     "vorschlag      leitlinie    comment";
   justify-content: space-between;
 }
