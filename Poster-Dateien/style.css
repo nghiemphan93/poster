@@ -71,6 +71,12 @@ h3 {
   text-align: justify;
 }
 
+.name {
+  text-align: right;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
 /*=========================================*/
 /* Grid Areas */
 /*=========================================*/
@@ -143,7 +149,7 @@ h3 {
 }
 
 .leitlinie .illustration {
-  width: 45%;
+  width: 40%;
   margin-top: 2rem;
 }
 
@@ -152,11 +158,11 @@ h3 {
 }
 
 .ueberwachung .illustration {
-  width: 80%;
+  width: 70%;
 }
 
 .studium .illustration {
-  width: 65%;
+  width: 55%;
 }
 
 .studium .text-aside {
@@ -169,7 +175,7 @@ h3 {
 
 .vorschlag .illustration {
   margin-left: 5rem;
-  width: 40%;
+  width: 30%;
 }
 
 .comment .text-aside {
