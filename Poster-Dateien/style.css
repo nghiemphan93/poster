@@ -92,6 +92,7 @@ a {
   grid-area: footer;
   text-align: center;
   margin-bottom: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .title {
