@@ -225,7 +225,7 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
   .wrapper {
     max-width: 90vw;
     grid-template-columns: 1fr;
